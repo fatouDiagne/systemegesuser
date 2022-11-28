@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet Filter implementation class AuthentificationFilter
  */
-@WebFilter({"/list", "/add"})
+@WebFilter({"/","/list", "/add"})
 public class AuthentificationFilter implements Filter {
 
    

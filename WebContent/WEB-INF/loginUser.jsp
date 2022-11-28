@@ -1,6 +1,6 @@
 <%@include file="entete.jsp" %>
 	<main>
-	<h1>login utilisateur</h1><br/>
+	<h1> Authentification</h1><br/>
 <form method="post">
 <fieldset>
 <legend>login</legend>

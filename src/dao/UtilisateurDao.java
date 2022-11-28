@@ -26,23 +26,7 @@ public class UtilisateurDao {
     private static final String SELECT_LOGIN = "select * from utilisateur where login=? and password=?";
     public UtilisateurDao() {}
     
-    /*public static void printSQLException( SQLException ex) { for ( Throwable e : ex) {
-        if (e instanceof SQLException ) {
-            if (ignoreSQLException((( SQLException ) e).getSQLState()) == false) {      
     
-               e.printStackTrace( System .err);
-               System .err.println( "SQLState : " + (( SQLException ) e).getSQLState());
-               System .err.println( "Code d'erreur : " + (( SQLException ) e).getErrorCode());
-               System .err.println( "Message : " + e.getMessage());
-               Jetable t = ex.getCause();
-               while (t != null) {
-                    System .out.println( "Cause : " + t);
-                   t = t.getCause();
-               } // w w w . _ j a v a 2 s . c o m         
-           }
-       }
-   }
-}*/
     
     private static Connection getConnection() {
     	Connection connection = null;

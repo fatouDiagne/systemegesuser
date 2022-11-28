@@ -41,6 +41,7 @@ public class LoginUser extends HttpServlet {
 
         try {
             if (UtilisateurDao.loginUser(user)) {
+            	
                 HttpSession session = request.getSession();
                 session.setAttribute("login",login);
                 response.sendRedirect("list");
